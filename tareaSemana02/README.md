@@ -2,7 +2,9 @@
 # PROBLEMA: Con una lista colocar nombre de alumnos, apellidos, codigo y ciclo matriculado. Luego hacer un summary de cuantos alumnos se tiene matriculado por ciclo.
 
 
-## Codigo en javascript
+## Codigo en javascript adjuntado.
+
+Se crea las lista de alumnos en base a una fuente de la facultad de ciencias de la UNIVERSIDAD NACIONAL DE INGENIERIA, luego se crean dos listas mas para poder contabilizar estadisticamente los alumnos
 
 
 
@@ -209,6 +211,9 @@ for (var i = 0; i < alumnos.length; i++) {
 }
 ```
 
+![image.png](attachment:image.png)
+
+### fuente de la lista de alumnos
 ![image.png](attachment:image.png)
 
 
