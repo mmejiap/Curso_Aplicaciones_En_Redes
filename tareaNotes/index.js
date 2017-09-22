@@ -64,14 +64,14 @@ else if(command=="read"){
 else if(command == "removePart"){
 	console.log("Ejecutando el comando");
 	console.log(command);
-        notes.removePart(argv.title);
+        notes.removeNote(argv.title);
         console.log(`Borrado parcial con exito: ${argv.title}`)
 
 }
 else if(command == "removeFull"){
 	console.log("Ejecutando el comando");
 	console.log(command);
-	notes.removeFull();
+	notes.removeAll();
 	console.log(`Borrado total con exito:`);
 };
 
