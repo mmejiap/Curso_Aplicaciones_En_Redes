@@ -1,7 +1,7 @@
 console.log("Iniciando notes modules");
 
 const fs = require('fs');
-
+//////Metodos
 let fetchNotes = () => {
 	try{
 		let noteString = fs.readFileSync("notes-data.json");
@@ -57,7 +57,7 @@ let removeAll =() =>{
 	fs.unlinkSync('notes-data.json');
 };
 
-
+///Exportando metodos
 module.exports = {
 	addNote,
 	getAll,
